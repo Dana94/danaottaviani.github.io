@@ -1,0 +1,60 @@
+
+
+/*parallax*/
+.parallax-window {
+    min-height: 450px;
+    background: transparent;
+    color: white;
+
+
+}
+
+/*general*/
+
+body{
+	
+	
+}
+
+h1{
+	text-align: left;
+	padding-top: 100px;
+	padding-left: 100px;
+	
+}
+
+#me{
+	border-radius: 50%;	
+	transform: scale(.6,.6) rotate(90deg);
+
+}
+
+/*bootstrap*/
+.row{
+	background-color: black;
+	color: white;
+	font-size: 20px;
+}
+
+
+/*nav*/
+
+.label{
+	font-size: 20px;
+}
+.navbar-brand{
+	text-align: left;
+}
+
+#nav{
+	font-size: 20px;
+	clear: both;
+	width: 100%;
+	height: 20%;
+}
+
+.dropdown ul li a{
+	font-size: 20px;
+	color: gray;
+}
+
