@@ -29,19 +29,23 @@ h1{
 
 }
 
+.label{
+	font-size: 20px;
+}
+
 /*bootstrap*/
 .row{
 	background-color: black;
 	color: white;
 	font-size: 20px;
+	margin-top: -10px;
 }
+
+.info{}
 
 
 /*nav*/
 
-.label{
-	font-size: 20px;
-}
 .navbar-brand{
 	text-align: left;
 }
@@ -56,5 +60,11 @@ h1{
 .dropdown ul li a{
 	font-size: 20px;
 	color: gray;
+}
+
+/* Education */
+
+#edu{
+	border-right: 1px solid white;
 }
 
