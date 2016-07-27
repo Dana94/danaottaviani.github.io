@@ -68,3 +68,12 @@ h1{
 	border-right: 1px solid white;
 }
 
+/* Courses */
+
+#classes ul{
+	list-style: none;
+	border-left: 1px solid white;
+}
+
+
+
