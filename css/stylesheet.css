@@ -2,11 +2,18 @@
 
 /*parallax*/
 .parallax-window {
-    min-height: 450px;
     background: transparent;
     color: white;
 
 
+}
+
+#head-window{
+	min-height: 450px;
+}
+
+.small-window{
+	min-height: 375px;
 }
 
 /*general*/
@@ -35,10 +42,11 @@ h1{
 
 /*bootstrap*/
 .row{
-	background-color: black;
+	background-color: #1C0B23; /*black*/
 	color: white;
 	font-size: 20px;
 	margin-top: -10px;
+	padding-top: 5px;
 }
 
 .info{}
@@ -65,7 +73,7 @@ h1{
 /* Education */
 
 #edu{
-	border-right: 1px solid white;
+	border-left: 1px solid white;
 }
 
 /* Courses */
@@ -75,5 +83,10 @@ h1{
 	border-left: 1px solid white;
 }
 
+/* skills */
+
+#skills{
+	border-left: 1px solid white;
+}
 
 
