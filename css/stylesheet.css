@@ -24,9 +24,9 @@ body{
 }
 
 h1{
-	text-align: left;
-	padding-top: 100px;
-	padding-left: 100px;
+	text-align: center;
+	padding-top: 10rem;
+	
 	
 }
 
@@ -42,9 +42,10 @@ h1{
 	float: right;
 }
 
-#name-div{
-	
-}
+/*#name-div{
+	border: 1px solid;
+	text-align: left;
+}*/
 
 .label{
 	font-size: 20px;
