@@ -49,6 +49,7 @@ h1{
 
 .label{
 	font-size: 20px;
+
 }
 
 /*bootstrap*/
@@ -86,14 +87,14 @@ h1{
 
 /* Education */
 
-#edu{
+#edu-content{
 	border-left: 1px solid white;
 	padding-left: 40px;
 }
 
 /* Courses */
 
-#classes{
+#classes-content{
 	border-left: 1px solid white;
 	
 }
@@ -109,13 +110,18 @@ h1{
 }
 /* skills */
 
-#skills{
+#skills-content{
 	border-left: 1px solid white;
 	padding-left: 40px;
 }
 
 .icon{
 	
+}
+
+#icon-labels{
+	margin-top: 5px;
+	text-align: left;
 }
 
 
