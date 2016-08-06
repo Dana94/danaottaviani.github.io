@@ -1,11 +1,10 @@
 
 
 /*parallax*/
+
 .parallax-window {
     background: transparent;
     color: white;
-
-
 }
 
 #head-window{
@@ -18,23 +17,14 @@
 
 /*general*/
 
-body{
-	
-	
-}
-
 h1{
 	text-align: center;
-	padding-top: 10rem;
-	
-	
+	padding-top: 10rem;	
 }
 
 #me{
 	border-radius: 50%;	
 	transform: scale(.6,.6) rotate(90deg);
-
-
 }
 
 #me-div{
@@ -42,17 +32,12 @@ h1{
 	float: right;
 }
 
-/*#name-div{
-	border: 1px solid;
-	text-align: left;
-}*/
-
 .label{
 	font-size: 20px;
-
 }
 
 /*bootstrap*/
+
 .row{
 	background-color: #1C0B23; 
 	color: white;
@@ -62,10 +47,9 @@ h1{
 	padding-bottom: 20px;
 }
 
-
-
-.info{}
-
+.col-sm-8{
+	border-left: 1px solid white;
+}
 
 /*nav*/
 
@@ -87,42 +71,21 @@ h1{
 
 /* Education */
 
-#edu-content{
-	border-left: 1px solid white;
-	padding-left: 40px;
-}
 
 /* Courses */
 
-#classes-content{
-	border-left: 1px solid white;
-	
-}
-
 #classes ul{
-	margin-left: -15px;
-	padding-left: -15px;
+	margin-left: -40px;
 	list-style: none;
 }
 
 #classes ul li{
 	padding-top: 5px;
 }
+
 /* skills */
-
-#skills-content{
-	border-left: 1px solid white;
-	padding-left: 40px;
-}
-
-.icon{
-	
-}
 
 #icon-labels{
 	margin-top: 5px;
 	text-align: left;
 }
-
-
-
