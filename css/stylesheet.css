@@ -15,6 +15,11 @@
 	min-height: 375px;
 }
 
+.img-source{
+	margin-top: 34rem;
+	text-align: right;
+}
+
 /*general*/
 
 h1{
@@ -36,9 +41,12 @@ h1{
 	font-size: 20px;
 }
 
+a{
+
+}
 /*bootstrap*/
 
-.row{
+#edu, #work, #honors, #classes, #skills{
 	background-color: #1C0B23; 
 	color: white;
 	font-size: 20px;
