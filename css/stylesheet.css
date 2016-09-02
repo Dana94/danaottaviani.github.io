@@ -17,9 +17,13 @@
 	background-color: #1C0B23;
 	text-align: right;
 	padding-right: 2rem;
-	margin-top: 0;
 }
 
+@media (max-width: 768px){
+	.img-source{
+		margin-top: -10px;
+	}
+}
 /*general*/
 
 h1{
@@ -43,7 +47,7 @@ h1{
 
 /*bootstrap*/
 
-#edu, #work, #honors, #classes, #skills{
+#edu, #work, #tech, #honors, #classes, #skills{
 	background-color: #1C0B23; 
 	color: white;
 	font-size: 20px;
