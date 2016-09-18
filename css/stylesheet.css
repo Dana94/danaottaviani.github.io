@@ -43,6 +43,7 @@ h1{
 
 .label{
 	font-size: 20px;
+	overflow-wrap: normal;/*?*/
 }
 
 /*bootstrap*/
@@ -97,3 +98,6 @@ h1{
 	margin-top: 5px;
 	text-align: left;
 }
+
+
+
