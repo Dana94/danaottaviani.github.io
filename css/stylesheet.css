@@ -41,11 +41,6 @@ h1{
 	float: right;
 }
 
-.label{
-	font-size: 20px;
-	overflow-wrap: normal;/*?*/
-}
-
 /*bootstrap*/
 
 #edu, #work, #tech, #honors, #classes, #skills{
