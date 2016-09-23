@@ -1,12 +1,29 @@
-/*parallax*/
+/*1) Parallax*/
+/*2) General*/
+/*3) Bootstrap*/
+/*4) Nav*/
+/*5) Honors, Employment*/
+/*6) Courses*/
+/*7) Skills*/
+
+
+/*1) Parallax*/
 
 .parallax-window {
     background: transparent;
     color: white;
 }
 
-#head-window{
-	min-height: 500px;
+@media (max-width: 960px){
+	#head-window{
+		height: 400px;
+	}
+}
+
+@media (min-width: 961px){
+	#head-window{
+		height: 550px;
+	}
 }
 
 .small-window{
@@ -24,7 +41,8 @@
 		margin-top: -10px;
 	}
 }
-/*general*/
+
+/*2) General*/
 
 h1{
 	text-align: center;
@@ -41,7 +59,7 @@ h1{
 	float: right;
 }
 
-/*bootstrap*/
+/*3) Bootstrap*/
 
 #edu, #work, #tech, #honors, #classes, #skills{
 	background-color: #1C0B23; 
@@ -56,8 +74,8 @@ h1{
 	border-left: 1px solid white;
 }
 
+/*4) Nav*/
 
-/*nav*/
 .navbar-brand{
 	text-align: left;
 }
@@ -74,12 +92,14 @@ h1{
 	color: gray;
 }
 
-/* Honors, Employment */
+/*5) Honors, Employment */
+
 .award, #work .row{
 	margin-bottom: 2rem;
 }
 
-/* Courses */
+/*6) Courses */
+
 #classes ul{
 	margin-left: -40px;
 	list-style: none;
@@ -89,11 +109,9 @@ h1{
 	padding-top: 5px;
 }
 
-/* skills */
+/*7) Skills */
+
 #icon-labels{
 	margin-top: 5px;
 	text-align: left;
 }
-
-
-
