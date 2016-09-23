@@ -1,10 +1,9 @@
 /*1) Parallax*/
 /*2) General*/
 /*3) Bootstrap*/
-/*4) Nav*/
-/*5) Honors, Employment*/
-/*6) Courses*/
-/*7) Skills*/
+/*4) Honors, Employment*/
+/*5) Courses*/
+/*6) Skills*/
 
 
 /*1) Parallax*/
@@ -49,18 +48,6 @@ h1{
 	padding-top: 10rem;	
 }
 
-#me{
-	border-radius: 50%;	
-	transform: scale(.6,.6) rotate(90deg);
-}
-
-#me-div{
-	margin-top: 70px;	
-	float: right;
-}
-
-/*3) Bootstrap*/
-
 #edu, #work, #tech, #honors, #classes, #skills{
 	background-color: #1C0B23; 
 	color: white;
@@ -70,11 +57,48 @@ h1{
 	padding-bottom: 20px;
 }
 
+/*3) Bootstrap*/
+
 .col-sm-9{
 	border-left: 1px solid white;
 }
 
-/*4) Nav*/
+@media (max-width: 810px) {
+    .navbar-header {
+        float: none;
+    }
+    .navbar-left,.navbar-right {
+        float: none !important;
+    }
+    .navbar-toggle {
+        display: block;
+    }
+    .navbar-collapse {
+        border-top: 1px solid transparent;
+        box-shadow: inset 0 1px 0 rgba(255,255,255,0.1);
+    }
+    .navbar-fixed-top {
+		top: 0;
+		border-width: 0 0 1px;
+	}
+    .navbar-collapse.collapse {
+        display: none!important;
+    }
+    .navbar-nav {
+        float: none!important;
+		margin-top: 7.5px;
+	}
+	.navbar-nav>li {
+        float: none;
+    }
+    .navbar-nav>li>a {
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+    .collapse.in{
+  		display:block !important;
+	}
+}
 
 .navbar-brand{
 	text-align: left;
@@ -92,13 +116,13 @@ h1{
 	color: gray;
 }
 
-/*5) Honors, Employment */
+/*4) Honors, Employment */
 
 .award, #work .row{
 	margin-bottom: 2rem;
 }
 
-/*6) Courses */
+/*5) Courses */
 
 #classes ul{
 	margin-left: -40px;
@@ -109,7 +133,7 @@ h1{
 	padding-top: 5px;
 }
 
-/*7) Skills */
+/*6) Skills */
 
 #icon-labels{
 	margin-top: 5px;
