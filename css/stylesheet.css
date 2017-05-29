@@ -139,3 +139,15 @@ h1{
 	margin-top: 5px;
 	text-align: left;
 }
+
+/* About Me */
+
+#Dana{
+	height: 240px;
+	right: 20px;
+	border-radius: 30%;
+}
+
+html, .container-fluid{
+	background-color: #B8C3D0; 
+}
