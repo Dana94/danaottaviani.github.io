@@ -1,10 +1,21 @@
-/*1) Parallax*/
-/*2) General*/
-/*3) Bootstrap*/
-/*4) Honors, Employment*/
-/*5) Courses*/
-/*6) Skills*/
+/* About Me */
 
+#Dana{
+	height: 240px;
+	right: 20px;
+	border-radius: 30%;
+}
+
+#summary{
+	border: 1px solid;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	background-color: #9A9A70;
+}
+
+/*html, .container-fluid{
+	background-color: #CEC4C4; 
+}*/
 
 /*1) Parallax*/
 
@@ -21,7 +32,7 @@
 
 @media (min-width: 961px){
 	#head-window{
-		height: 550px;
+		height: 400px;
 	}
 }
 
@@ -41,27 +52,10 @@
 	}
 }
 
-/*2) General*/
 
-h1{
-	text-align: center;
-	padding-top: 10rem;	
-}
-
-#edu, #work, #tech, #honors, #classes, #skills{
-	background-color: #1C0B23; 
-	color: white;
-	font-size: 20px;
-	margin-top: -10px;
-	padding-top: 20px;
-	padding-bottom: 20px;
-}
 
 /*3) Bootstrap*/
 
-.col-sm-9{
-	border-left: 1px solid white;
-}
 
 @media (max-width: 810px) {
     .navbar-header {
@@ -100,42 +94,22 @@ h1{
 	}
 }
 
-.navbar-brand{
-	text-align: left;
-}
+/*.navbar-brand{
+	text-align: right;
+}*/
 
 #nav{
 	font-size: 20px;
 	clear: both;
-	width: 100%;
+	width: 50%;
 	height: 20%;
 }
 
-.dropdown ul li a{
-	font-size: 20px;
-	color: gray;
+.project{
+	border: 1px solid;
+	margin-top: 10px;
+	height: 200px;
+	background-color: #9A709A;
 }
 
-/*4) Honors, Employment */
 
-.award, #work .row{
-	margin-bottom: 2rem;
-}
-
-/*5) Courses */
-
-#classes ul{
-	margin-left: -40px;
-	list-style: none;
-}
-
-#classes ul li{
-	padding-top: 5px;
-}
-
-/*6) Skills */
-
-#icon-labels{
-	margin-top: 5px;
-	text-align: left;
-}

@@ -7,21 +7,79 @@
 	
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous"> 	
 
-		<link rel="stylesheet" type="text/css" href="css/stylesheet.css">
+		
+		<link rel="stylesheet" type="text/css" href="css/about.css">
 
 		<script src="https://use.fontawesome.com/81c406da02.js"></script>
 	</head>
-	<body>
-		<div class="container-fluid">
-			<div class="row">
-				<div class="col-xs-3 col-xs-offset-9">
-					<img src="images/Dana.jpg" alt="Dana" id="Dana">
-				</div>
+	<body data-spy="scroll">
+			<header>
+				<nav class="navbar navbar-default navbar-fixed-top navbar-inverse navbar-text navbar-right">
+				  <div class="container-fluid" id="nav">
+
+				    <div class="navbar-header">
+					    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+					    	<span class="sr-only">Toggle navigation</span>
+					   	 	<span class="icon-bar"></span>
+					    	<span class="icon-bar"></span>
+					    	<span class="icon-bar"></span>
+					    </button>
+				    </div>
+
+				    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+					    <ul class="nav navbar-nav">
+					        <li>
+					        	<a href="#">About<span class="sr-only">(current)</span></a>
+					        </li>
+					        <li>
+					        	<a href="#">Projects</a>
+					        </li>
+					        <li>
+					        	<a href="#">Contact</a>
+					        </li>
+					
+					    </ul>
+				    </div>
+				  </div>
+				</nav>
+			</header>
+
+
+			<div class="parallax-window" data-parallax="scroll" data-image-src="images/sunset_lake.jpeg" id="head-window">
+				<div class="col-lg-4" id="name-div">
+						<h1>Dana C. Ottaviani</h1>
+				</div>	
 			</div>
-		</div>
+
+		    <!-- <p class="img-source">
+		    	<a href="#" target="_blank">Image source</a>
+		    </p>  -->
+
+		    <div class="container-fluid"> 
+
+				<div class="row" id="summary">
+					<div class="col-xs-3 col-xs-offset-9">
+						<img src="images/Dana.jpg" alt="Dana" id="Dana">
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-lg-2 col-lg-offset-1 project">
+						Coming Soon!
+					</div>
+					<div class="col-lg-2 col-lg-offset-2 project">
+						Coming Soon!
+					</div>
+					<div class="col-lg-2 col-lg-offset-2 project">
+						Coming Soon!
+					</div>
+				</div>
+		    </div>
 
 
 		<script src="https://code.jquery.com/jquery-2.2.4.min.js" integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" crossorigin="anonymous"></script>
+
+		<!--Used from http://pixelcog.github.io/parallax.js/-->
+		<script src="parallax.js-1.4.2/parallax.min.js"></script>
 
 		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
 
