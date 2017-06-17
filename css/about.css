@@ -7,10 +7,10 @@
 }
 
 #about{
-	border: 1px solid;
+	
 	padding-top: 10px;
 	padding-bottom: 10px;
-	background-color: #9A9A70;
+	background-color: #D4BABA;
 }
 
 #name{
@@ -108,6 +108,12 @@
 }
 
 .project{
+	border: 5px solid;
+	margin-left: 0;
+	margin-right: 0;
+}
+
+.project-pic{
 	border: 1px solid;
 	margin-top: 10px;
 	margin-bottom: 10px;
@@ -115,18 +121,26 @@
 	background-color: #9A709A;
 }
 
+.project-summary{
+	font-size: 20px;
+	padding-top: 5px;
+}
+
 footer{
-	height: 200px;
-	border: 1px solid;
+	height: 130px;
+	background-color: #7F6F6F;
+
 }
 
 .fa{
 	/*margin: 5px;*/
 	color: black;
+	padding-left: 30px;
 }
 
 .fa:hover{
 	color: green;
 }
+
 
 
